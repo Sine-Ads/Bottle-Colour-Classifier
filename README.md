@@ -45,14 +45,14 @@ Large values lead to Slow learning.
 `lr = 0.001` was the slowest with low accuracy.
 `lr = 0.1` and `lr = 0.5` both failed and did not give any outcome.
 
-![Experiment 1](plots/experiment1_learning_rates.png)
+![Experiment 1](experiment1_learning_rates.png)
 
 ### Experiment 2: Batch Size
 
 `batch = 5` & `batch = 10` had the fastest result.
 `batch = 50` was the slowest.
 
-![Experiment 2](plots/experiment2_batch_size.png)
+![Experiment 2](experiment2_batch_size.png)
 
 ### Experiment 3: Dropout
 
@@ -60,7 +60,7 @@ Large values lead to Slow learning.
 `dropout = 0.5` was slow but still provided a good result.
 `dropout = 0.8` had the most unstable accuracy varying between 40-100%.
 
-![Experiment 3](plots/experiment3_dropout.png)
+![Experiment 3](experiment3_dropout.png)
 
 ### Experiment 4: L2 Regularisation
 
@@ -68,7 +68,7 @@ Large values lead to Slow learning.
 `L2 = 0.1` was slower but still had 100% accuracy.
 `L2 = 0.5` was the slowest due to the high penalty.
 
-![Experiment 4](plots/experiment4_l2_regularization.png)
+![Experiment 4](experiment4_l2_regularization.png)
 
 ---
 
